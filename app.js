@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 
 function sumar(a, b) { return a + b; }
-function saludo() { return "Hola DevSecOps"; }
+function saludo() { return "Hola DevOps"; }
 
-app.get('/', (req, res) => res.send("Hola DevSecOps"));
+app.get('/', (req, res) => res.send("Hola DevOps"));
 app.get('/sumar/:a/:b', (req, res) => {
   res.json({ resultado: sumar(Number(req.params.a), Number(req.params.b)) });
 });
