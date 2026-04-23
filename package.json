@@ -1,0 +1,24 @@
+{
+  "name": "pipeline-devsecops-lab",
+  "version": "1.0.0",
+  "description": "Laboratorio CI/CD - Ingeniería de Software Seguro",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santi321S/pipeline-devsecops-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/santi321S/pipeline-devsecops-lab/issues"
+  },
+  "homepage": "https://github.com/santi321S/pipeline-devsecops-lab#readme",
+  "dependencies": {
+    "jest": "^30.3.0"
+  }
+}
